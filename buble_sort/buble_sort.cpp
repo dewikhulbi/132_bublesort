@@ -48,6 +48,17 @@ void unsorted() {
 	cout << endl;
 }
 
+void display() {								//procedur untuk menampilkan hasil
+	cout << endl;								//output baris kosong
+	cout << "===================" << endl;		//output ke layar
+	cout << "Masukan Elemen Array" << endl;		//output ke layar
+	cout << "===================" << endl;		//output ke layar
+	for (int j = 1; j < n; j++) {			//Looping dengan j dimulai dari 1 hingga n-1
+		cout << a[j] << endl;				//output ke layar
+	}
+	cout << endl;
+}
+
 
 
 
